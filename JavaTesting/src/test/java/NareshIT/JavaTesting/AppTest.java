@@ -24,7 +24,7 @@ public class AppTest
    
         System.out.println("Update from Branch3");
         System.out.println("From Branch4");
-        System.out.println("New Branch6");
+        System.out.println("New Branch7");
 
     }
 
