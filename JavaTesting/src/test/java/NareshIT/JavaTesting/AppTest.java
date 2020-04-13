@@ -39,6 +39,7 @@ public class AppTest
     {
     	  System.out.println("commit 1 from master");
     	  System.out.println("commit 2 from master");
+    	  System.out.println("commit 1 from master after rebase");
         return new TestSuite( AppTest.class );
       
     }
