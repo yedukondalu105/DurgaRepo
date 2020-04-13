@@ -37,7 +37,9 @@ public class AppTest
      */
     public static Test suite()
     {
+    	  System.out.println("commit 1 from master");
         return new TestSuite( AppTest.class );
+      
     }
 
     /**
