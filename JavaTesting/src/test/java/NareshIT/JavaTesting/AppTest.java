@@ -28,7 +28,10 @@ public class AppTest
 
 
         System.out.println("New Branch10");
-
+        System.out.println("New Branch commit 1");
+        System.out.println("New Branch commit 2");
+        System.out.println("New Branch commit1 after rebase");
+  
 
     }
 
@@ -38,6 +41,8 @@ public class AppTest
     public static Test suite()
     {
     	  System.out.println("commit 1 from master");
+    	  System.out.println("commit 2 from master");
+    	  System.out.println("commit 1 from master after rebase");
         return new TestSuite( AppTest.class );
       
     }
